@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Inconsolata';
 }
 
 .App-logo {
@@ -11,6 +12,50 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.flex{display: flex}
+.flex.spb{justify-content: space-around;}
+
+
+.range{
+  margin: 10px 0;
+}
+
+.options{
+  text-align: left;
+  margin: auto;
+}
+
+.options label{
+  display: block;
+  width: 100%;
+  user-select: none; /* Standard */
+
+}
+
+input[type='text']{
+  width: 50%;
+  padding: 10px;
+}
+
+.input-group{
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.generate-button{
+  width: 25%;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.copy{
+  box-sizing: border-box;
+  padding: 10px 5px;
+  margin: 0 5px;
+  border: 1px black solid;
 }
 
 .App-header {
